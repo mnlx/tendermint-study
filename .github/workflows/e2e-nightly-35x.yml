@@ -7,7 +7,7 @@ name: e2e-nightly-35x
 on:
   workflow_dispatch:  # allow running workflow manually
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 0 1 12 *'
 
 jobs:
   e2e-nightly-test:
